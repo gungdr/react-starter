@@ -1,0 +1,81 @@
+{
+    "settings": {
+        "react" : {
+            "version": "^16.7.0"
+        }
+    },
+    "env": {
+        "es6": true,
+        "node": true,
+        "jest" : true,
+        "browser": true
+    },
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended"
+    ],
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true
+        },
+        "ecmaVersion": 2018,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "react"
+    ],
+    "rules": {
+        "indent": [
+            "error",
+            2
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "semi": [
+            "error",
+            "never"
+        ],
+        "object-curly-spacing": [
+            "error",
+            "always"
+        ],
+        "no-console":"off",
+        "yoda": [
+            "error",
+            "never"
+        ],
+        "comma-spacing": [
+            "error",
+            {
+              "before": false,
+              "after": true
+            }
+        ],
+        "no-trailing-spaces": [
+            "error"
+        ],
+        "space-before-blocks": [
+            "error"
+        ],
+        "padded-blocks": [
+            "error",
+            {
+                "classes": "always",
+                "blocks": "never",
+                "switches": "never"
+            }
+        ],
+        "jsx-quotes":[
+            "error",
+            "prefer-single"
+        ],
+        "react/jsx-uses-react": "error",
+        "react/jsx-uses-vars": "error"
+    }
+}
