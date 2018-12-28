@@ -1,5 +1,5 @@
 # react-starter
-The goal of this project is to make a ready to use" react project structure with basic tools or libraries
+The goal of this project is to make a "ready to use" react project structure with basic tools or libraries
 
 ## Available Scripts
 
